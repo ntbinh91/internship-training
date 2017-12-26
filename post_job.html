@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="jquery-3.2.1.min.js" type="text/javascript" charset="utf-8" async defer></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="bootstrap.js" type="text/javascript" charset="utf-8" async defer></script>
+	<style>
+		.container{
+			padding: 0px;
+			margin: ;
+		}
+		.navbar-inverse{
+			width: 55%;
+		}
+		.navbar-inverse ul li{
+			width: 120px;
+			text-align: center;
+		}
+		.menu{
+			width: 100%;
+			height: auto;
+		}
+		.btn-primary {
+			color: #020101;
+			background-color: #b6b6b6;
+			border-color: #b4b4b4;
+		}
+	</style>
+</head>
+<body background="1.jpg">
+	<div class="container">
+		<nav class="navbar navbar-inverse">
+			<ul class="nav navbar-nav">
+				<li><a href="jobeet.html">Jobeet</a></li>
+				<li class="active"><a href="post_job.html">Post New Job</a></li>
+				<li><a href="find_job.html">Find Job</a></li>
+				<li><a href="user.html">User</a></li>
+				<li><a href="apply.html">Apply</a></li>
+			</ul>
+		</nav>
+		<div class="menu">
+			<h3><i>Catagory</i></h3>
+			<div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+				<span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<li><a href="#">HTML</a></li>
+					<li><a href="#">CSS</a></li>
+					<li><a href="#">JavaScript</a></li>
+				</ul>
+			</div> 
+			<h3>Title</h3>
+			<input type="text" class="form-control" placeholder="Username" style="width:40%">
+			<h3>Depstiption</h3>
+			<textarea name="" class="form-control" style="width:40%; margin-bottom: 20px"></textarea>
+				<input type="radio" checked="checked" >Public
+        		<input type="radio" style="margin-left: 50px">Private<br>
+			<input type="button" class="btn btn-default" name="" value="Save" style="width: 20%;margin-top: 20px;">
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="jquery-3.2.1.min.js" type="text/javascript" charset="utf-8" async defer></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="bootstrap.js" type="text/javascript" charset="utf-8" async defer></script>
+	<style>
+		.khung{
+			padding: 0px;
+			margin: auto;
+		}
+		.navbar-inverse ul li{
+			width: 130px;
+			text-align: center;
+		}
+		.menu{
+			width: 100%;
+			height: auto;
+		}
+		h1{
+			text-align: center;
+		}
+		.col-lg-7{
+			padding: 0px;
+		}
+	</style>
+</head>
+<body background="1.jpg">
+	<div class="khung">
+		<div class="row">
+			<nav class="navbar navbar-inverse col-xs-12 col-sm-12 col-md-7 col-lg-7 col-md-offset-2 col-lg-offset-2">
+				<ul class="nav navbar-nav">
+					<li><a href="jobeet.html">Jobeet</a></li>
+					<li><a href="post_job.html">Post New Job</a></li>
+					<li><a href="find_job.html">Find Job</a></li>
+					<li class="active"><a href="user.html">User</a></li>
+					<li><a href="apply.html">Apply</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-md-offset-2 col-lg-offset-2">
+				<h1>Find Job</h1>
+				<table width="70%">
+					<tr>
+						<td>
+							<p>Username</p>
+							<input type="text" class="form-control" placeholder="text">
+						</td>				
+					</tr>
+					<tr>
+						<td>
+							<p>Password</p>
+							<input type="password" class="form-control" placeholder="*********">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Email</p>
+							<input type="text" class="form-control" placeholder="text">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Skills</p>
+							<input type="checkbox" name=""><span>Business</span>
+							<input type="checkbox" name=""><span>Math</span>
+							<input type="checkbox" name=""><span>IT</span>
+						</td>
+					</tr>
+					<tr>
+						<td><input type="button" class="btn btn-default" name="" value="Save" style="width: 20%; margin-top:20px"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
